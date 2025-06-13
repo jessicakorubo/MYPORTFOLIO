@@ -717,7 +717,7 @@ body {
   }
   .whole-page-container .donate .donate-form-container .contact-form form .input input,
   .whole-page-container .donate .donate-form-container .contact-form form .input select {
-    width: 90%;
+    width: 100%;
   }
   .whole-page-container .donate .donate-form-container .contact-form form input[type=submit] {
     font-size: 12px;
