@@ -1,0 +1,67 @@
+.projectDiv {
+    background-color: black;
+    color:white;
+}
+.title {
+    margin: 4rem auto;
+}
+.featuredDiv {
+    padding: 2rem;
+}
+
+.featured .works {
+  gap: 1rem;
+   
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+ 
+}
+
+.featured .works .picture {
+  margin-bottom: 20px;
+  width: 500px;
+  /* width: 80%; */
+  height: 100%;
+  /* overflow: hidden; */
+  box-shadow: 4px 16px 20px rgba(0,0,0,0.2),  20px 10px 10px black;
+  
+}
+.featured .works .picture img {
+  width: 100%;
+  height: 100%;
+  width: 500px;
+  border-radius: 20px;
+}
+.featured .works .work {
+  /* height: 60%; */
+}
+.featured .works .work span year {
+  background-color: #142850;
+}
+.featured .works hr {
+  color: #21243D;
+  opacity: 0.4;
+  height: 1rem;
+  width: 100%;
+}
+.footer {
+  margin-top: 10rem;
+  color: inherit;
+}
+.goBack {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: fit-content;
+    margin: auto;
+    /* display: inline-block; */
+    background-color:#ffc436;;
+    padding: 22px;
+    border-radius: 10pc 5px 10px 5px;
+    text-decoration: none;
+    color: black;
+}
